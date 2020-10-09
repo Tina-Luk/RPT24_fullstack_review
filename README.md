@@ -43,3 +43,26 @@ Build a full stack application as each student follows along on their own machin
 ## User Story:
 While going to the grocery store, you constantly forget what you need to buy causing yourself to make multiple unneccessary trips back to the store. You try to prevent this by writing this down on a piece of paper, except you forget to bring it with you to the store as well.
 After weeks of frustration and countless trips to your grocer, you decide that it is in your best interest to create a Grocery List app where you can save all of your items that you need, since no one ever forget their phone. Build out a grocery list app that can add, retrieve, update, and delete items along with their respective quantities.
+
+### Exercise 1:
+* Create a schema for the database 'Groceries'
+  * Create a table called 'Items'
+  * Include a column for item name as well as a respective quantity
+  * Preload the table with 3 entries 
+* Load the schema into Mysql
+
+### Exercise 2:
+* Write out server code within server/index.js
+  * Install necessary dependencies as well as create a script to spin up the server
+  * Include dependencies Express, BodyParser, Morgan, Cors, and Path
+  * Have the server hosting on a port number of your choice
+  * Create a get request handler for the endpoint '/' to send back the string 'Hello world, from server'
+  * Confirm the server is running and check that the endpoint is correctly serving the string either through Postman or your browser
+  
+### Exercise 3:
+* Connect your server to your database utlizing a router, controller, and model
+  * Create a router that will handle the endpoint of '/groceries'
+  * Create CRUD operations for the 'Groceries' database
+  * Test and ensure each operation is working via Postman
+  
+ 
